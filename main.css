@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+
+    background-color:  rgb(0, 0, 0);;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  gap: 336px;
+}
+.header__list{
+    display: flex;
+    gap: 40px;
+}
+.header__link{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+text-shadow: 0 4px 7px  rgb(255, 255, 255);
+}
+.header__link:hover{
+    color: red;
+    font-size: 30px;
+    text-shadow: 0 4px 7px  red;
+}
+.hero{
+    background-image: url("./images/Rectangle\ 2\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 37px;
+    padding-bottom: 88px;
+
+}
+.div{
+    margin: 0 auto;
+  width: 602px;
+  text-align: center;
+    border-radius: 30px;
+padding-bottom: 2px;
+box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+background: rgb(255, 255, 255);
+margin-bottom: 81px;
+}
+.hero__title{
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 64px;
+font-weight: 700;
+line-height: 77px;
+letter-spacing: 0%;
+
+
+}
+.hero__wrapper{
+    padding-top: 101px;
+    display: flex;
+    justify-content: space-between;
+    gap: 61px;
+    position: relative;
+}
+.hero__items{
+    width: 237px;
+    height: 209px;
+    box-shadow: 0px 22px 27.8px 0px rgba(255, 249, 249, 0.25);
+    background: rgb(50, 251, 0);
+ 
+}
+.hero__etms{
+    width: 237px;
+    height: 209px;
+    box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+    background: rgb(247, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.xa{
+    position: absolute;
+    top: 0px;
+    left: 119px;
+}
+.xe{
+    width: 411px;
+    border-radius: 100px;
+
+box-shadow: 0px 18px 26.5px 0px rgba(251, 0, 0, 0.25);
+background: rgb(247, 1, 1);
+position: absolute;
+top: 0px;
+left: 420px;
+}
+
+.xo{
+    position: absolute;
+    top: 0px;
+    right:  119px;
+}
+.span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+  text-shadow: 0 4px 7.4px rgb(255, 255, 255);
+}
+.hero__2{
+    background-color: #000;
+    padding-top: 79px;
+   
+}
+.dev{
+    margin: 0 auto;
+    width: 602px;
+    text-align: center;
+      border-radius: 30px;
+  padding-bottom: 2px;
+  box-shadow: 16px 18px 28px 0px rgba(255, 255, 255, 0.25);
+  background: rgb(255, 255, 255);
+  margin-bottom: 81px;
+}
+.hero__tutle{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: 0%;
+}
+.hero__lisst{
+ justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 88px;
+}
+.hero__aytems{
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+    width: 368px;
+    padding-top: 50px;
+    background-color: rgb(123, 37, 37);
+  
+}
+.hero__aytems:nth-child(1){
+    padding-bottom: 72px;
+}
+.hero__aytems:nth-child(2){
+    padding-bottom: 60px;
+}
+.hero__aytems:nth-child(3){
+    padding-bottom: 22px;
+}
+.rasm{
+    width: 316px;
+    margin: 0 auto;
+}
+.hero__heading{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0%;
+text-align: center;
+text-shadow: 0 4px 7.4px rgb(255, 255, 255);
+}
+.hero__text{
+    color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+margin-left: 51px;
+height: 113px;
+width: 271px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 79px 0;
+}
+.ss{
+    display: flex;
+    justify-content: space-between;
+    gap: 68px;
+
+}
+.dd{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    text-shadow: 0 4px 7px  rgb(255, 255, 255); 
+}
+.dd:hover{
+    color: red;
+    font-size: 30px;
+    text-shadow: 0 4px 7px  red;
+}
+
+
+
